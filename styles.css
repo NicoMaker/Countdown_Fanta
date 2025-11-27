@@ -194,7 +194,8 @@ h1 {
 }
 
 @keyframes gradientShift {
-  0%, 100% {
+  0%,
+  100% {
     filter: hue-rotate(0deg);
   }
   50% {
@@ -291,7 +292,7 @@ h1 {
   color: #ffffff;
   margin-bottom: 15px;
   text-shadow: 0 4px 20px rgba(16, 185, 129, 0.8),
-               0 0 40px rgba(16, 185, 129, 0.5);
+    0 0 40px rgba(16, 185, 129, 0.5);
 }
 
 .countdown-label {
@@ -316,7 +317,8 @@ h1 {
 }
 
 @keyframes celebrationPulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
     box-shadow: 0 30px 80px rgba(139, 92, 246, 0.6),
       0 0 100px rgba(16, 185, 129, 0.4);
@@ -425,7 +427,8 @@ footer {
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
   }
   50% {

@@ -44,13 +44,13 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1>Asta di Riparazione</h1>
-          <p class="subtitle">Fantacalcio Fantamaster</p>
+          <h1 id="auction-title">Asta di Riparazione</h1>
+          <p class="subtitle" id="auction-subtitle">Fantacalcio Fantamaster</p>
 
           <div class="auction-info">
             <h2>📅 Info Asta</h2>
-            <p><strong>Data:</strong> 30 Dicembre <span id="auction-year">2024</span></p>
-            <p><strong>Ora:</strong> 15:00</p>
+            <p><strong>Data:</strong> <span id="auction-date">30 Dicembre 2024</span></p>
+            <p><strong>Ora:</strong> <span id="auction-time">15:00</span></p>
           </div>
 
           <div class="countdown-container">
@@ -75,9 +75,9 @@
 
             <div class="celebration-message" id="celebration-message">
               <div class="football-icon">⚽</div>
-              <h2>Buon Asta a Tutti!</h2>
-              <p><strong>L'asta è iniziata!</strong></p>
-              <p>Che vinca il migliore! 🏆⚽</p>
+              <h2 id="celebration-title">Buon Asta a Tutti!</h2>
+              <p><strong id="celebration-text">L'asta è iniziata!</strong></p>
+              <p id="celebration-emoji">Che vinca il migliore! 🏆⚽</p>
             </div>
           </div>
         </div>
@@ -87,11 +87,10 @@
     <footer>
       <div class="container">
         <div class="copyright">
-          <p>&copy; <span id="current-year"></span> Fantamaster - Asta di Riparazione</p>
+          <p>&copy; <span id="current-year"></span> <span id="footer-text">Fantamaster - Asta di Riparazione</span></p>
         </div>
       </div>
     </footer>
-
     <script src="script.js"></script>
   </body>
 </html>
